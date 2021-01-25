@@ -1,0 +1,11 @@
+.heading{font-size:20px;width:100%;margin:0;}
+.heading_instruction{font-size: 15px !important;}
+.button_tag{font-size: 15px;}
+body{background: cover;}
+.form-group{margin-top:20px;}
+label{color: red;}
+canvas{animation-name: canvas;animation-duration: 4s;animation-iteration-count: infinite;}
+@keyframes canvas{
+    from{border: 5px solid green;}
+    to{border: 5px solid blue;}
+}
