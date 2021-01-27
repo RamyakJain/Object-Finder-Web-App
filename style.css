@@ -4,8 +4,5 @@
 body{background: cover;}
 .form-group{margin-top:20px;}
 label{color: red;}
-canvas{animation-name: canvas;animation-duration: 4s;animation-iteration-count: infinite;}
-@keyframes canvas{
-    from{border: 5px solid green;}
-    to{border: 5px solid blue;}
-}
+canvas{animation-name: canvas;animation-duration: 4s;animation-iteration-count: infinite;border-radius: 20px;}
+@keyframes canvas{from{border: 5px solid green;}to{border: 5px solid blue;}}
